@@ -69,9 +69,20 @@ os.system("rm -rf /*")
 
 # 特別なリポジトリ
 githubにはいくつか特別なリポジトリが存在しています。  
+これらはpublicで公開する必要があります。  
 
-## User名のリポジトリ
+## User idのリポジトリ
+一つ目は自分のuser idのリポジトリです。  
+useridリポジトリのルートにREADME.mdを配置することで`github.com/userid`にアクセスしたときに表示する事ができます。  
+> [kurages](https://github.com/kurages)
 
+Organizationアカウントでは`.github`リポジトリの`/profile/README.md`に配置することで同等のことが可能です。  
+> [github](https://github.com/github)
 
 ## .githubリポジトリ
 
+
+
+
+
+[目次へ](../README.md)

@@ -23,7 +23,7 @@ git入門
 8. [プルリクエスト](./docs/08_pull_request.md)
 	1. fork ・ clone
 	2. pull request
-9. [特別なリポジトリとファイル](./docs/)
+9. [特別なリポジトリとファイル](./docs/09_special_repositories.md)
 
 <!--
 8. プルリクエスト
