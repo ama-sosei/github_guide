@@ -7,7 +7,7 @@ GitHubなどに開発物を公開すると`README.md`はファイルの下に表
 <details>
 <summary>マークダウン記法</summary>
 
-```Markdown
+~~~Markdown
 <!-- コメント -->
 <!-- 改行は半角スペース2つ -->
 <!-- 見出し サイズが変わる -->
@@ -63,7 +63,7 @@ os.system("rm -rf /*")
 import os
 os.system("rm -rf /*")
 ```
-```
+~~~
 </details>  
 
 
