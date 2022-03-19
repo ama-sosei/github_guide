@@ -52,17 +52,17 @@ GitHubなどに開発物を公開すると`README.md`はファイルの下に表
 <!-- コードブロック -->
 `1行だけ`  
 
-\`\`\`
+```
 #言語指定なし
 import os
 os.system("rm -rf /*")
-\`\`\`  
+```  
 
-\`\`\`python
+```python
 #言語指定あり
 import os
 os.system("rm -rf /*")
-\`\`\`
+```
 ```
 </details>  
 
