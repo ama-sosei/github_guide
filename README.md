@@ -25,6 +25,8 @@ git入門
 	2. pull request
 9. [特別なリポジトリとファイル](./docs/09_special_repositories.md)
 
+
+
 <!--
 8. プルリクエスト
 9. special repositories
@@ -34,6 +36,5 @@ git入門
 	3. Organization
 	4. REST API
 -->
-
 
 (c) 2021 情報技術部github布教委員会

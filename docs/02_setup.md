@@ -2,20 +2,13 @@
 ## インストール
 各種OS以下コマンドでインストールする事ができます。  
 
-CentOS 7  
-`sudo yum -y install git`  
-
-CentOS 8  
-`sudo dnf -y install git`  
-
-Ubuntu  
-`sudo apt install git`  
-
-alpine  
-`sudo apk add git`  
-
-Windows
-`winget install --id Git.Git`  
+|OS|コマンド|
+|:--|:--|
+|CentOS 7|`sudo yum -y install git`|
+|CentOS 8|`sudo dnf -y install git`|
+|Ubuntu|`sudo apt install git`|
+|alpine|`sudo apk add git`|
+|Windows|`winget install --id Git.Git`|  
 
 ## Githubアカウントの作成
 既にアカウント作成済みの場合は読み飛ばして貰って構いません。
@@ -33,13 +26,20 @@ GitクライアントにGithubのアカウント情報を教えてあげる必�
 Windows標準のコマンドプロンプトからでも実行は可能ですがUnix系とコマンドが違うため、Windows独自コマンドを覚えるように汎用性が高いです。  
 要するにWindowsくそってことです。  
 
-```
+```bash
 git config --global user.name "Githubアカウントのユーザー名"
 git config --global user.email "メールアドレス"
 ```  
 
 Gitでは様々な設定をgit configコマンドを用いて行います。  
-詳しくは割愛しますが、globalオプションを付加することで、作業しているユーザー全体で適用されます。  
+オプションは以下の通りです。  
+
+|オプション|影響する範囲|
+|:--|:--|
+|system|システム全体(全ユーザーの全リポジトリ)|
+|global|ユーザー全体(該当するユーザーの全リポジトリ)|
+|local|該当するリポジトリのみ|
+|オプションなし|localと同じ動作をします|
 
 ## 公開鍵の設定
 gitクライアントから公開鍵暗号方式を用いて認証するために必要な設定を行います。  
